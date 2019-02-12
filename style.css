@@ -1,0 +1,106 @@
+@charset "utf-8";
+/*
+Theme Name: jkwater
+Author: Niu
+Description: 浙江嘉科新能源水处理官网 v190212
+Version: 1.0
+
+*/
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    font-family: 'Helvetica Neue',Helvetica,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif;
+}
+body{background-color: #fff;min-width:1200px}
+.main-box{width:1200px;margin:0 auto;}
+.index-footer ul li{
+ width:200px; height: 30px
+}
+ul li{
+	list-style-type: none;
+    float: left;
+}
+a{text-decoration:none;color:#666;}
+a:hover{color:#1256bd;}
+.index-head-logo{width: 280px;padding: 3px 0;}
+.index-head-line{ box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);background-color: #4077ca; height: 40px;/* background: linear-gradient(to top, rgb(38, 74, 105) 0%, rgb(31, 103, 165) 100%); background:linear-gradient(to top, rgb(38, 74, 105) 0%, #0A8FD4 100%)*/}
+.index-head-line [class *= "pure-u"] {padding-top: 10px}
+.index-head-line [class *= "pure-u"] a{color:#fff;font-size: 16px}
+		
+		*{zoom:1}
+		.fullSlide{ position:relative; background:#000; margin:0 auto;max-width: 1200px;}
+		.fullSlide .bd{ position:relative; z-index:0; }
+		.fullSlide .bd li img{width:100%; vertical-align:top;  } 
+		.fullSlide .hd{position:relative; z-index:1; margin:-48px 0 48px;  line-height:30px;  text-align:center;
+			  filter:alpha(opacity=60);
+		}
+		.fullSlide .hd ul{ text-align:center;  padding-top:5px;     padding-left: 50%; }
+		.fullSlide .hd ul li{
+		 cursor:pointer; display:inline-block; *display:inline; zoom:1; width:8px; height:8px; margin:5px; background:url(static/tg_flash_p.png) -18px 0; overflow:hidden; 
+			font-size:0;
+		}
+		.fullSlide .hd ul .on{ background-position:0 0; }
+		.fullSlide .prev,.fullSlide .next{ z-index:1; display:block; width:55px; height:55px; position:relative; margin:-18% 0 0 3%; float:left;  background:url(static/arrow2.png) 0 0 no-repeat; filter:alpha(opacity=40);opacity:0.4  }
+		.fullSlide .next{  background-position:right 0; float:right; margin-right:3%  }
+		.fullSlide .prev:hover,.fullSlide .next:hover{ filter:alpha(opacity=80);opacity:0.8 }
+.index-footer{font-size:14px;background-color: #f5f5f5;margin-top: 20px;}
+.index-footer .title{
+	font-size:16px;
+	font-weight: 600;
+	padding-bottom: 10px
+}
+
+.index-footer .title a{color:#1256bd}
+.index-footer-copy {text-align: center;color:#666;font-size: 14px}
+.index-jiejue{background: #fff;}
+.index-jiejue img{width:100%;    box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);}
+.index-jiejue p,.index-xinwen p{line-height:27px;color:#666;font-size:13px;}
+.index-jiejue .line, .index-xinwen .line{height: 5px;border-bottom: 1px dashed #666}
+.index-jiejue h4,.index-xinwen h4,.index-xinwen .more{color:#1256bd}
+.index-xinwen .more:hover{color:#333}
+.index-jiejue-1 .box,.index-jiejue-2 .box,.index-jiejue-3 .box,.index-xinwen .box{padding: 10px;}
+
+#container{width:100%;height: 300px;background-color: #aaa;    box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);}
+.single-content .title .timu{float:left;font-size: 25px;font-weight: 600;color:#1256bd;}
+.single-content .title .daohang{float:right;font-size: 15px;position: relative;top: 22px;}
+.single-content .title .clear{clear:both;}
+.single-content .main-shopContent{padding-top:30px;line-height: 35px;}
+.single-content .line{height: 2px;background: linear-gradient(to left, rgb(141, 209, 255) 0%, rgb(18, 86, 189) 100%);}
+.single-content .sider-img{width:190px;}
+.single-content .box{padding:20px;}
+.single-content .zhanshi{position: relative;margin:5px 0;}
+.single-content .zhanshi img{}
+.single-content .zhanshi a{
+	position: absolute;
+	color:#d6d6d6;
+	font-size: 18px;
+	font-weight: 500;
+	z-index: 999;
+	background: rgba(0, 0, 0, 0.4);
+    display: block;
+    width: 190px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+	  box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+	  transition: all 1s;
+}
+.single-content .zhanshi a:hover{color: #fff;background: rgba(0, 0, 0, 0.7);}
+.single-content h3{margin-top: 26px; font-size: 21px; color: #1256bd;}
+.single-content .zitiaomu {border-bottom: 1px dashed #ccc; padding: 11px 0; margin: 0 0 10px 0;font-size:14px}
+.single-content .main-content img{ max-width: 920px;box-shadow: 8px 6px 20px 0px #ccc;height: auto;}
+.fa-arrow-circle-o-right{color: #1256bd;}
+.main-content p{line-height:35px;font-size: 14px;color: #666666;}
+.kejilixiang{
+	 margin: 10px 0;
+    border-collapse: collapse;
+    display: table;
+    width: 100%;
+    
+}
+.kejilixiang td,.kejilixiang th {
+    word-wrap: break-word;
+    word-break: break-all;
+    padding: 15px;
+    border: 1px solid #bbb;
+}
+.daohang{overflow: hidden; white-space: nowrap; text-overflow: ellipsis;width:340px;}
